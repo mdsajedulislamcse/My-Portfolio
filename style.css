@@ -1,0 +1,166 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-part {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.orange-color{
+    color: orange;
+    font-size: 3rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 2.8rem;
+}
+.biographi {
+    width: half-width;
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 1.1rem;
+}
+.bio-introduce{
+    background-color: hotpink;
+    padding: 20px;
+    border-radius: 2px;
+}
+.hire-button, a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: royalblue;
+    border-radius: 2px;
+    border: none;
+    background-image: linear-gradient(tomato , orange);
+}
+.hire-button:hover {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+.top-right-image {
+    width: half-width;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+.top-right-image img {
+    width: 510px;
+}
+/* TOP PART END  */
+
+
+/* START MIDDLE PART */
+.middle-part {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 30px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-right: 5px solid orange;
+    border-radius: 30px;
+}
+.picture img {
+    width: 510px;
+    margin-left: 60px;
+}
+.learning {
+    font-size: 2.5rem;
+    margin-left: 200px;
+}
+.become-dev {
+    margin-left: 200px;
+}
+.ability {
+    width: half-width;
+    text-align: justify;
+    margin-right: 90px;
+    font-size: 1.1rem;
+    background-color: hotpink;
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 2px;
+}
+.resume {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: royalblue;
+    border-radius: 2px;
+    margin-left: 200px;
+    background-image: linear-gradient(tomato , orange);
+}
+/* MIDDLE PART END */
+
+
+/* BOTTOM PART START */
+.bottom-part {
+    display: flex;
+}
+.experience {
+    margin-left: 70px;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+.bottom-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-left: 5px solid tomato;
+    border-radius: 30px;
+}
+.bottom-left {
+    width: 40%;
+    height: 350px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 50px;
+    font-size: 1.1rem;
+    padding: 20px;
+    border-left: 6px solid;
+    border-image: linear-gradient(tomato , orange);
+    border-image-slice: 1;
+    box-shadow: 10px 5px 50px gray;
+}
+.full-stack {
+    text-align: center;
+    font-size: 2rem;
+}
+.bottom-right {
+    width: 40%;
+    height: 350px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 70px;
+    font-size: 1.1rem;
+    padding: 20px;
+    border-left: 6px solid;
+    border-image: linear-gradient(blue , tomato);
+    border-image-slice: 1;
+    box-shadow: 10px 5px 50px gray;
+}
+.baby-web {
+    text-align: center;
+    font-size: 2rem;
+}
+.end-part {
+    background-image: linear-gradient(orange, tomato, hotpink);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+/* END BOTTOM PART */
